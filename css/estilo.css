@@ -1,0 +1,40 @@
+@font-face {
+    font-family: meu;
+    src: url('../imagem/WinterSelfie.ttf');
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../imagem/natureza-6896035_1920.jpg');
+    
+}
+.central{
+   position: relative;
+   top: -10%;
+   background:linear-gradient(rgb(187, 91, 91),rgb(202, 179, 179));
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+
+}
+
+
+h1{
+    font-style: italic;
+    font-family: meu;
+    font-size: xxx-large;
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    text-decoration: underline;
+    margin-top: 10%;
+}
+img{
+    width: 150px;
+    mix-blend-mode: multiply;
+}
